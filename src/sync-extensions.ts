@@ -34,6 +34,8 @@ export class SyncExtensions {
         for (const recommend of this.state.recommendInstalled) {
             if (this.state.installed.has(recommend) === false) {
                 this.install(recommend);
+
+
             }
         }
     }
